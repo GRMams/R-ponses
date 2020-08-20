@@ -2,7 +2,7 @@
 ===========
 
 Les **extensions Doctrine** permettent de par son rôle d'ORM, de mapper des objets puis de lui définir des états via l'entity manager(data mapper et unit of work). L'avantage de ce systéme est que les objets sont complétements indépendants du systéme de stockage. Pour faire plus simple, l'entity manager ne va pas mettre à jour la base de données à chaque changement.
-A l'aide de fonction (**find**, **flush** et **persist**) l'entity manager va faire le lien avec la base de donnée.
+A l'aide de fonction (**find**, **flush** et **persist** ) l'entity manager va faire le lien avec la base de donnée.
 
 Exemple avec le codage du mot de passe d'un utilisateur:
 
